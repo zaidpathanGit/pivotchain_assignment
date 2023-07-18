@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F2F3F4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 50px 150px auto;
+    grid-template-columns: 61fr;
+    align-items: center;
+}
+
+/* HEADER CSS */
+
+p {
+    display: inline-block;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+}
+
+#appname {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.listview__header_actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* STATISTIC CSS */
+
+.statistic {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    background-color: #F8F9F9;
+}
+
+.statistic__info {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* LIST VIEW CSS */
+.listview {
+    width: 100%;
+    align-self: baseline;
+    display: flex;
+    justify-content: center;
+}
+
+/* FORM VIEW CSS */
+.formview {
+    display: flex;
+    justify-content: center;
+}
+
+.formview__main_form {
+    width: 30%;
+    background-color: white;
+}
