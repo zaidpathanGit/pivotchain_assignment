@@ -44,3 +44,17 @@ Now, let us explain what to show the user regarding customer
 – Each Customer has Customer ID, Name, Email, Contact Details, status (Active, Inactive), and Date added
 
 – Customer Table view should show Custoemr ID, Name, Email, Contact Details, status (Active, Inactive), and Date added. It should also be sorted on Last Updated from the most recent to the oldest ticket. 
+
+## Running the project
+
+1. Frontend
+
+  - 1.1 Open terminal (CMD) and run `npm install` in the directory of `package.json` file.
+  - 1.2 Once done. run `npm start`.
+  - 1.3 Visit `http://localhost:3000` in browser.
+
+2. Backend
+
+  - 2.1 Open terminal (CMD) and run `npm install` in the directory of `package.json` file.
+  - 2.2 Once done. run `npm start`.
+  - 2.3 Visit `http://localhost:8000` in postman tool if need to test backend alone.
